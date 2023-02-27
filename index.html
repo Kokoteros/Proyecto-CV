@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Piedra CV</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/scrips.js"></script>
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+
+  </head>
+  <body>
+    <div><button onclick="topFunction()" id="top-btn" class="scroll-top-btn"  title="Volver arriba">&#11014;</button></div>
+  <main>
+  <!--DESKTOP NAV-->
+    <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-orange w3-hide-small" style="border-width: 2px !important;">Mi CV
+      </a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-orange w3-hover-text-orange w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Contacto</a>
+      <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-orange w3-hover-text-orange w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Perfil</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-orange w3-hover-text-orange w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Sobre mí</a>
+    </div>
+    <div class="content-container w3-margin-top-2">
+    <section>
+      <!-- MOBILE NAV -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">Mi CV</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-orange w3-hover-text-orange" onclick="toggleNavigation()">Sobre mí</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-orange w3-hover-text-orange" onclick="toggleNavigation()">Perfil</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-orange w3-hover-text-orange" onclick="toggleNavigation()">Contacto</a>
+      </div>
+    </section>
+
+    <div class="container"> 
+      <div class="profile">
+        <div class="profile_container">
+          <div class="profile_profileImg">
+            <img src="photo.jpg" alt="Foto Marcos Piedra">
+          </div>
+          <div>
+            <h1 class="profile_name">
+              <span id="about" class="profile_name_firstName">Marcos</span>
+              <span class="profile_name_lastName">Piedra</span>
+            </h1>
+            <p class="profile_title">Estudiante Ingeniería Electromecánica</p>
+            <p class="description profile_description">
+              Estudiante de Ingeniería en busca de dar los primeros pasas en el mundo de la programación y aprender para poder brindar mis talentos con los cual crecer profecionalmente.
+              Responsable y con resiliencia para adaptarme en los nuevos paradigmas tecnológicos de hoy en día.
+            </p>
+            <a class="downloadButton" href="Marcos Piedra CV.pdf" download="Marcos-Piedra-CV.pdf">Descargar CV</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="edu">
+        <h3 class="title">Educación</h3>
+        <div class="edu_item">
+          <p class="item_preTitle">2004- 2010</p>
+          <h4 class="item_title">TÉCNICO CON ORIENTACIÓN EN ELECTROMECÁNICA</h4>
+          <p class="item_subtitle">
+            Colegio Técnico Prov. Olga B. de Arko - Ushuaia, TDF.
+          </p>
+        </div>
+        <div class="edu_item">
+          <p class="item_preTitle">2011-</p>
+          <h4 class="item_title">INGENIERÍA ELECTROMECÁNICA</h4>
+          <p class="item_subtitle">
+            UTN Facultad Regional Resistencia.
+          </p>
+        </div>
+      </div>
+
+        <div id="resume" class="ref">
+          <h3 class="title">Objetivos</h3>
+          <div class="obj_item">
+            <h4 class="obj_name">A futuro:</h4>
+            <ul class="description">
+              <li>Trabajar para una empresa local.</li>
+              <li>Adquirir 3 años de experiencia en el rubro.</li>
+              <li>Trabajar para una empresa extranjera.</li>
+              <li>Recibirme de Ingeniero</li>
+              </ul>
+          </div>
+        </div>
+        
+        <div class="group-1">
+          <div class="skills">
+            <h3 class="title">CONOCIMIENTOS</h3>
+            <ul class="skills_list description">
+              <li>JavaScript</li>
+              <li>HTML CSS</li>
+              <li>MS OFFICE</li>
+              <li>HERRAMIENTAS DE EDICIÓN DE VIDEO</li></ul>
+          </div>
+  
+        <div class="idiomas">
+          <h3 class="title">IDIOMAS</h3>
+          <div class="idiomas_item">
+            <h4 class="item_title">Español</h4>
+            <h4 class="item_title">Ingles (Avanzado)</h4>
+            <h4 class="item_title">Japonés (Básico)</h4>
+          </div>
+        </div>
+      </div>
+      
+      <div class="group-2">
+        <div class="exp">
+          <h3 class="title">Experiencia</h3>
+          <div class="exp_item">
+            <h4 class="item_title"></h4>
+            <p class="item_subtitle"></p>
+            <p class=" description">
+              Trabajos de Freelance - Cuenta Propia
+            </p>
+            <p>Instalación, configuración e implementación de Windows server en todas sus versiones, configuración de usuarios, manejo de escritorios remotos.</p>
+          </div>
+          
+        </div>
+        <div class="awards">
+          <h3 class="title"></h3>
+          <div class="awards_item">
+            <p class="item_preTitle"></p>
+            <h4 class="item_title"></h4>
+            <p class=" description">
+              
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <hr>
+      <div class="group-3">
+        <div class="contact">
+          <h3 class="title">Contacto</h3>
+          <div class="contact_info">
+            <p class="description">
+              <a href="mailto:marcosjose.piedra@gmail.com" target="_blank" class="social_item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>marcosjose.piedra@gmail.com</span>
+              </a> 
+            </p>
+            <p class="description">
+              <a href="https://wa.me/5492901470875" target="_blank" class="social_item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>+549 2901 470875</span>
+              </a>
+            </p>
+            <p class="description">
+              <a href="https://www.google.com/maps/place/Resistencia,+Chaco/@-27.4516744,-58.9882435,16.92z/data=!4m15!1m8!3m7!1s0x94450c62a6f5f70b:0xf03ac86511c2cd6d!2sResistencia,+Chaco!3b1!8m2!3d-27.4518622!4d-58.9855547!16zL20vMDJ0Yjdr!3m5!1s0x94450c62a6f5f70b:0xf03ac86511c2cd6d!8m2!3d-27.4518622!4d-58.9855547!16zL20vMDJ0Yjdr" target="_blank" class="social_item">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>Resistencia, Chaco - Argentina</span>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div id="contact" class="social">
+          <h3 class="title">Redes</h3>
+          <div class="social_items">
+            <a href="https://github.com/Kokoteros" target="_blank" class="social_item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>/Kokoteros</span>
+            </a>
+            <a href="https://www.linkedin.com/in/marcos-piedra/" target="_blank" class="social_item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>/marcos-piedra</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container-pie">
+        <div class="pie">
+             <h6>  Marcos Piedra &copy - 2023</h6>
+             <h6>Todos los Derechos Reservados</h6>
+         </div>
+    </div>
+  </footer>
+  </body>
